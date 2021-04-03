@@ -1,0 +1,42 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background-image: url(wp4026357.png);
+	background-size: cover;
+	background-position: unset;
+	
+	font-family: sans-serif;
+}
+.menu-bar
+{
+	background: rgb(233,235,226);
+	text-align: center;
+	
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #2c2b2c;
+}
+.menu-bar ul li
+{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #2c2b2c;
+}
+.active, .menu-bar ul li:hover
+{
+	background: #FF6347;
+	border-radius: 3px;
+}
